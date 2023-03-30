@@ -15,18 +15,18 @@ return
 ;Layer: Capslock
 #If GetKeyState("Capslock","P")
 	;Mapeamos el teclado numérico.
-	7::NumPad7
-	8::NumPad8
-	9::NumPad9
-	u::NumPad4
-	i::NumPad5
-	o::NumPad6
-	j::NumPad1
-	k::NumPad2
-	l::NumPad3
-	m::NumPad0
+	u::NumPad7
+	i::NumPad8
+	o::NumPad9
+	j::NumPad4
+	k::NumPad5
+	l::NumPad6
+	m::NumPad1
+	,::NumPad2
+	.::NumPad3
+	ñ::NumPad0
 	;,::NumPad0
-	.::NumPadDot
+	;.::NumPadDot
 	;/::NumPadAdd
 	;::NumPadSub
 	;p::NumPadMult
@@ -41,5 +41,5 @@ return
 ;Layer: Ralt
 RAlt::return
 #If GetKeyState("RAlt", "P")
-	l::\
+	f::\
 
