@@ -41,5 +41,5 @@ return
 ;Layer: Ralt
 RAlt::return
 #If GetKeyState("RAlt", "P")
-	f::\
+	a::\
 
