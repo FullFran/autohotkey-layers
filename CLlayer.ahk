@@ -25,12 +25,15 @@ return
 	,::NumPad2
 	.::NumPad3
 	n::NumPad0
-	;,::NumPad0
-	;.::NumPadDot
-	;/::NumPadAdd
-	;::NumPadSub
-	;p::NumPadMult
-	;0::NumPadDiv
+	;Mapeamos los simbolos aritméticos:
+	h::*
+	y::=
+	ñ::-
+	p::+
+	-::/
+	´::_
+
+
 	;Mapeamos las flechas wasd
 	w::Up
 	s::Down
