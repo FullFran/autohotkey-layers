@@ -24,7 +24,7 @@ return
 	m::NumPad1
 	,::NumPad2
 	.::NumPad3
-	ñ::NumPad0
+	n::NumPad0
 	;,::NumPad0
 	;.::NumPadDot
 	;/::NumPadAdd
