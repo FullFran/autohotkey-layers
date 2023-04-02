@@ -45,4 +45,15 @@ return
 RAlt::return
 #If GetKeyState("RAlt", "P")
 	a::\
+	w::#
+	;Añadimos los paréntesis:
+	d::[
+	c::] 
 
+	;Estas teclas no funcionan
+#If GetKeyState("RAlt", "P")
+    q::SendInput, {Raw}!
+    r::SendInput, {Raw}$
+    f::SendInput, {Raw}(
+    v::SendInput, {Raw})
+return
