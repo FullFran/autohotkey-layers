@@ -4,6 +4,7 @@ $Capslock::
 	KeyWait,Capslock,T0.25 ;measured in seconds
 	if (!ErrorLevel && A_PriorKey="Capslock")
 	{
+		
 		If GetKeyState("Capslock","T")
 			SetCapsLockState, off
 		else
@@ -39,6 +40,11 @@ return
 	s::Down
 	a::Left
 	d::Right
+
+
+	z::<
+	x::>
+
 #If
 
 ;Layer: Ralt
@@ -49,6 +55,8 @@ RAlt::return
 	;Añadimos los paréntesis:
 	d::[
 	c::] 
+	,::<
+	.::>
 
 	;Estas teclas no funcionan
 #If GetKeyState("RAlt", "P")
@@ -57,3 +65,16 @@ RAlt::return
     f::SendInput, {Raw}(
     v::SendInput, {Raw})
 return
+
+
+
+$Tab::
+	KeyWait,Tab,T0.25 ;measured in seconds
+	if (!ErrorLevel && A_PriorKey="Tab")
+	
+	KeyWait, Tab
+return
+
+
+
+
