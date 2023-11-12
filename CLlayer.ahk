@@ -1,16 +1,22 @@
 ﻿;ignore long presses of the capslock key
 #SingleInstance, [force|ignore|prompt|On]
+
+$Capslock::Esc
+$Esc::Capslock
+
 $Capslock::
 	KeyWait,Capslock,T0.25 ;measured in seconds
 	if (!ErrorLevel && A_PriorKey="Capslock")
 	{
+		SendInput, {Esc} ; añadido nuevo para simular Esc
 		
-		If GetKeyState("Capslock","T")
-			SetCapsLockState, off
-		else
-			SetCapsLockState, on
+	;	If GetKeyState("Capslock","T")
+	;		SetCapsLockState, off
+	;	else
+	;		SetCapsLockState, on
 	}
 	KeyWait, Capslock
+	
 return
 
 ;Layer: Capslock
@@ -74,7 +80,6 @@ $Tab::
 	
 	KeyWait, Tab
 return
-
 
 
 
