@@ -11,9 +11,9 @@ return
 
 
 #If GetKeyState("Tab","P")
-    j::Left             
-    k::Down                                             
+    h::Left             
+    j::Down                                             
     l::Right
-    i::Up                   
+    k::Up                   
 
 
