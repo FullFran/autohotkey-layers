@@ -40,6 +40,10 @@ return
 	-::/
 	´::_
 
+	; Mapeamos parentesis
+	f::(
+	r::)
+
 
 	;Mapeamos las flechas wasd
 	w::Up
@@ -66,10 +70,10 @@ RAlt::return
 
 	;Estas teclas no funcionan
 #If GetKeyState("RAlt", "P")
-    q::SendInput, {Raw}!
-    r::SendInput, {Raw}$
-    f::SendInput, {Raw}(
-    v::SendInput, {Raw})
+    q:: 1
+    r:: 4 ;
+    f::{ ; 
+    v::] ;
 return
 
 
