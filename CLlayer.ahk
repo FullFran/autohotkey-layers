@@ -39,12 +39,15 @@ return
 	ñ::-    
 	-::/
 	´::_
-
+	RShift::\
+	
 	; Mapeamos parentesis
 	f::(
 	r::)
 
-    `::$
+	; Teclas útiles
+    `::BackSpace
+	e::$
 
 	;Mapeamos las flechas wasd
 	w::Up
