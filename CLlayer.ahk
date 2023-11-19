@@ -33,10 +33,10 @@ return
 	.::NumPad3
 	n::NumPad0
 	;Mapeamos los simbolos aritméticos:
-	h::*
 	y::=
-	ñ::-
+	h::*
 	p::+
+	ñ::-    
 	-::/
 	´::_
 
@@ -44,6 +44,7 @@ return
 	f::(
 	r::)
 
+    `::$
 
 	;Mapeamos las flechas wasd
 	w::Up
@@ -84,6 +85,3 @@ $Tab::
 	
 	KeyWait, Tab
 return
-
-
-
