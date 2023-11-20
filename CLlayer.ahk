@@ -3,6 +3,8 @@
 
 $Capslock::Esc
 $Esc::Capslock
+`::BackSpace 
+
 
 $Capslock::
 	KeyWait,Capslock,T0.25 ;measured in seconds
@@ -46,7 +48,7 @@ return
 	r::)
 
 	; Teclas útiles
-    `::BackSpace
+    `::` 
 	e::$
 
 	;Mapeamos las flechas wasd
