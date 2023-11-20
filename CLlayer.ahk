@@ -41,23 +41,26 @@ return
 	ñ::-    
 	-::/
 	´::_
-	RShift::\
 	
 	; Mapeamos parentesis
 	f::(
-	r::)
+	F::)
 
 	; Teclas útiles
     `::` 
 	e::$
+	q::!
+	Q::¡
+	g::?
+	G::¿
+	v::"
+	;c::raw{%}
 
 	;Mapeamos las flechas wasd
 	w::Up
 	s::Down
 	a::Left
 	d::Right
-
-
 	z::<
 	x::>
 
@@ -73,13 +76,13 @@ RAlt::return
 	c::] 
 	,::<
 	.::>
-
+	
 	;Estas teclas no funcionan
 #If GetKeyState("RAlt", "P")
-    q:: 1
-    r:: 4 ;
-    f::{ ; 
-    v::] ;
+    q:: |
+    r:: ~
+    f::{  
+    v::] 
 return
 
 
